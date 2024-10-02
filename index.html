@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newtonix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.svg" alt="" />
+            </div>
+            <ul>
+                <li onclick=goToNewton() style=" background-color:rgb(210, 210, 210); cursor: pointer;"> More
+                </li>
+                <li style="cursor:pointer;">Contact us</li>
+                <li onclick=goToCommunity() style="cursor: pointer;">Community</li>
+                <li style="cursor: pointer;">Help</li>
+            </ul>
+        </nav>
+        <div class="page1" data-scroll data-scroll-speed="-4" >
+            <div class="text">
+                <h1>Unlock Your Future with Newtonix</h1>
+                <p>Achieve Your Dreams with Newtonix: Expert mentoring and test series for NSAT success and scholarships. Join us today! </p>
+            </div>
+    
+            <div class="buttons">
+                <button class="join-now">Join Now</button>
+                <button onclick=goToLogin() class="contact-us">Log In</button>
+            </div>
+        </div>
+
+        <div  data-scroll data-scroll-speed="1" class="page2">
+            <h1 class="excel">Excel in NSAT & Interviews</h1>
+            <div class="services">
+                <h1 class="service-text">Our Services</h1>
+                <div class="icons">
+                    <div class="icon1">
+                        
+                    </div>
+                    <div class="icon2">
+
+                    </div>
+                    <div class="icon3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-scroll data-scroll-speed="3" class="page3">
+            <div class="ref-img">
+
+            </div>
+            <div class="info">
+                <h1>About Us</h1>
+                <p>Newtonix is an online platform created by current students of Newton School of Technology. Our goal is to assist future students in clearing the NSAT and interview rounds.
+
+                    We provide test series and mentorship to help students not only get selected but also secure scholarships. Our services are offered at minimal prices.</p>
+            </div>
+        </div>
+        <div data-scroll data-scroll-speed="7" class="page4">
+            <div class="location">
+                <div class="location-info">
+                    <h1>Location</h1>
+                    <h3>Sonipat, Haryana</h3>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-text">
+                    <h1>Contact Us Today</h1>
+                    <p>Reach out to us using the contact form. We look forward to helping you with your NSAT preparation and interview guidance.</p>
+                </div>
+                <div class="contact-fieldarea">
+                    <div class="upper">
+                        <div class="name">
+                            <h3>Name</h3>
+                            <input type="text">
+                        </div>
+                        <div class="email">
+                            <h3>Email</h3>
+                            <input type="email">
+                        </div>
+                    </div>
+                    <div class="message">
+                        <h3>Message</h3>
+                        <textarea>
+
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
