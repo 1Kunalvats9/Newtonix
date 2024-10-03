@@ -8,7 +8,7 @@ function goToNewton(){
 }
 
 function goToLogin() {
-  window.location.href="http://127.0.0.1:3002/newtonix redefined/Login Page/index1.html"
+  window.location.href="https://login-page-chi-dusky.vercel.app/"
 }
 document.getElementsByClassName("contact-us").addEventListener("click", scrollToSection);
 
