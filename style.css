@@ -42,7 +42,7 @@ body {
     background-color:rgb(210, 210, 210);    
 }
 .navbar ul li{
-    margin-left:10px ;
+    margin-left:10px;
     margin-right: 40px;
     cursor: pointer;
     background-color:rgb(210, 210, 210);
@@ -395,7 +395,7 @@ body {
         margin-left: 0%;
     }
     .navbar ul{
-        width: 230px;
+        width: 200px;
     }
     .text h1{
         font-size: 40px;
@@ -483,13 +483,18 @@ body {
     }
     .upper{
         width: 95%;
+        margin-bottom:10px;
     }
     .contact-fieldarea{
         width: 100%;
     }
+    .message{
+        margin-top:5px;
+    }
     .message h3{
         margin-left:10px;
         width: 95%;
+        margin-top:10px;
     }
     .message textarea{
         margin-left:10px;
