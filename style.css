@@ -383,6 +383,11 @@ body {
         max-width:500px;
         width: 100vw;
         gap: 0;
+        justify-content:flex-start;
+    }
+    .navbar .li{
+        margin: 0px 10px 0 10px;
+        text-align: center;
     }
     .logo{
         width: 100px;
