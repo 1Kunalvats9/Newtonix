@@ -383,16 +383,20 @@ body {
         max-width:500px;
         width: 100vw;
         gap: 0;
-        justify-content:flex-start;
+        justify-content: flex-start;
     }
     .navbar .li{
         margin: 0px 10px 0 10px;
         text-align: center;
     }
     .logo{
-        width: 100px;
+        width: 125px;
         height: 35px;
         margin-left: 0%;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
     }
     .navbar ul{
         width: 200px;
@@ -430,15 +434,16 @@ body {
         justify-content: space-between;
         flex-direction: column;
         width: 100%;
-        height: 600px;
+        height: 500px;
         background-color: #101010;
         padding:10px;
         border-radius: 20px;
         margin-top: 10px;
+        margin-bottom: 5%;
     }
     .icon1,.icon2,.icon3{
         width: 80%;
-        height: 95%;
+        height: 33vw;
     }
     .page3{
         flex-direction: column;
@@ -453,9 +458,9 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         background:none;
-        margin-top:50px;
+        margin-top: 50px;
     }
-    page3 .info p{
+    .page3 .info p{
         font-size: 15px;
     }
     .page3 .ref-img{
@@ -483,18 +488,18 @@ body {
     }
     .upper{
         width: 95%;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
     .contact-fieldarea{
         width: 100%;
     }
     .message{
-        margin-top:5px;
+        margin-top:5px ;
     }
     .message h3{
         margin-left:10px;
         width: 95%;
-        margin-top:10px;
+        margin-top: 10px;
     }
     .message textarea{
         margin-left:10px;
