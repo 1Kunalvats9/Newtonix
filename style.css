@@ -385,7 +385,7 @@ body {
         gap: 0;
     }
     .logo{
-        width: 30px;
+        width: 125px;
         height: 35px;
         margin-left: 0%;
     }
@@ -448,6 +448,7 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         background:none;
+        margin-top:50px;
     }
     page3 .info p{
         font-size: 15px;
